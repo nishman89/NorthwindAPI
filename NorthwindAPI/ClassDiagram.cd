@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NorthwindAPI.Models.Supplier">
+    <Position X="11.25" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAEgAAAAAAIIAAgAAAAAAIAAAACAAACIAAgAAQ=</HashCode>
+      <FileName>Models\Supplier.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="NorthwindAPI.Models.Product">
+    <Position X="15.5" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>MEAAAAAAAAAAAoAAAAAAQAAAAAEAAAAAAAAAAAgoCAA=</HashCode>
+      <FileName>Models\Product.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Category" />
+      <Property Name="Supplier" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="NorthwindAPI.Models.Category">
+    <Position X="19.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAgAgAAAAAAAAAAACAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Models\Category.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Products" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
